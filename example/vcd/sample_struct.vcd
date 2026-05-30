@@ -1,0 +1,79 @@
+$timescale 1 ns $end
+$scope module tb $end
+$scope module dut $end
+$var wire 1 ! clk $end
+$scope module pkt $end
+$var wire 1 @ valid $end
+$var wire 8 # data $end
+$var wire 2 $ kind $end
+$upscope $end
+$scope module rsp $end
+$var wire 1 % ack $end
+$var wire 8 & payload $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0!
+0@
+b00000000 #
+b00 $
+0%
+b00000000 &
+$end
+#0
+0!
+0@
+b00000000 #
+b00 $
+0%
+b00000000 &
+#5
+1!
+#10
+0!
+#15
+1!
+1@
+b00101010 #
+b01 $
+#20
+0!
+#25
+1!
+1%
+b00101010 &
+#30
+0!
+#35
+1!
+0@
+b00000000 #
+b00 $
+0%
+b00000000 &
+#40
+0!
+#45
+1!
+1@
+b11001100 #
+b10 $
+#50
+0!
+#55
+1!
+1%
+b11001100 &
+#60
+0!
+#65
+1!
+0@
+b00000000 #
+b00 $
+0%
+b00000000 &
+#70
+0!
